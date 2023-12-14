@@ -1,7 +1,27 @@
 #!/usr/bin/env python3
 
+    
 class Person:
-    # Class body goes here
+    def login(self):
+        print(f"{self.name} you logged in")
 
-    #Instance method definition
-    pass
+
+zaki = Person()
+zaki.name = "Zaki"  
+
+
+zaki.login()
+
+class Person:
+    def talk(self):
+        print("Hello World!")
+
+Person = saka()
+
+saka.talk()
+
+class Person:
+    def walk(self):
+        print("The person is walking.")
+
+
